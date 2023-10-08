@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Data Science Bootcamp",
+        "image": "https://media.licdn.com/dms/image/D5612AQFzPdZDA8bE_A/article-cover_image-shrink_600_2000/0/1684930016865?e=2147483647&v=beta&t=3Vw9vK7_Wl0j9OkMzfvqelJYMsH00LkSAyHMbO7ph3M",
+        "price": "$799",
+        "short_description": "Learn data analysis, machine learning, and more!",
+        "long_description": "Join our intensive Data Science Bootcamp to master data analysis, machine learning, and data visualization. Get hands-on experience with real-world projects and kickstart your career in data science. Explore advanced statistical techniques, develop predictive models, and gain insights into big data analysis. Our expert instructors will guide you through the intricacies of data science, ensuring you have the skills and knowledge to succeed in this rapidly evolving field."
+    },
+    {
+        "id": 2,
+        "name": "Web Development Fundamentals",
+        "image": "https://res.cloudinary.com/boardinfinity/image/upload/t_blog_img/bi-websites/blog/11/62.png",
+        "price": "$499",
+        "short_description": "Start your journey in web development!",
+        "long_description": "Discover the world of web development in our Web Development Fundamentals course. Learn HTML, CSS, JavaScript, and build your own interactive websites. No prior coding experience required! Dive deep into front-end and back-end development, explore responsive web design, and master essential web development tools and frameworks. By the end of the course, you'll be equipped with the skills to create dynamic and engaging web applications."
+    },
+    {
+        "id": 3,
+        "name": "Digital Marketing Masterclass",
+        "image": "https://media.insider.in/image/upload/c_crop,g_custom/v1680611208/evg7n7jwtolrowm0zimj.png",
+        "price": "$599",
+        "short_description": "Boost your business with digital marketing expertise!",
+        "long_description": "Gain a deep understanding of digital marketing strategies and techniques in our Digital Marketing Masterclass. Learn SEO, social media marketing, email marketing, and more to drive online success. Dive into data-driven marketing, explore advanced analytics, and develop personalized marketing campaigns that resonate with your target audience. Our industry experts will provide you with the knowledge and tools needed to thrive in the ever-changing digital landscape."
+    },
+    {
+        "id": 4,
+        "name": "Language Learning Workshop",
+        "image": "https://previews.123rf.com/images/rastudio/rastudio1904/rastudio190400024/124142187-students-practicing-dynamic-foreign-language-learning-at-workshop-foreign-language-workshop.jpg",
+        "price": "$299",
+        "short_description": "Become fluent in a new language!",
+        "long_description": "Immerse yourself in a language learning workshop and achieve fluency in Spanish, French, or any language of your choice. Our experienced instructors will guide you through the journey, covering grammar, vocabulary, and conversation skills. Engage in cultural immersion experiences and practice your language skills in real-life scenarios. By the end of the workshop, you'll be conversational and culturally aware in your chosen language."
+    },
+    {
+        "id": 5,
+        "name": "Financial Planning Seminar",
+        "image": "https://www.virtuswealth.com/wp-content/uploads/Virtus-Wealth-Goal-Based-Financial-Planning.jpg",
+        "price": "Free",
+        "short_description": "Secure your financial future!",
+        "long_description": "Join our free Financial Planning Seminar and gain valuable insights into personal finance, budgeting, investing, and retirement planning. Take control of your financial future by learning about risk management, asset allocation, and financial goal setting. Our expert speakers will provide you with practical advice and strategies to build a secure financial foundation."
+    },
+    {
+        "id": 6,
+        "name": "Artificial Intelligence Certification",
+        "image": "https://leverageedu.com/blog/wp-content/uploads/2021/07/Btech-in-Artificial-Intelligence.png",
+        "price": "$899",
+        "short_description": "Become an AI expert!",
+        "long_description": "Become proficient in artificial intelligence and machine learning with our AI Certification program. Learn cutting-edge AI techniques and work on AI projects with industry experts. Dive deep into neural networks, natural language processing, computer vision, and reinforcement learning. By the end of the program, you'll be equipped with the skills to design and implement advanced AI solutions that can drive innovation in various industries."
+    }
+]
