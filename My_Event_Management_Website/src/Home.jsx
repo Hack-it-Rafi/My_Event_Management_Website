@@ -1,11 +1,15 @@
-import Footer from "./Footer";
 import Banner from "./Banner";
+import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
         <div>
-            
+            <div className="max-w-7xl mx-auto mb-5">
+                <Marquee >
+                    I can be a React component, multiple React components, or just some text.
+                </Marquee>
+            </div>
             <Banner></Banner>
             <div className="text-center my-32">
                 <h2 className="font-pacifico text-5xl">Its who we are. Its in our blood.</h2>

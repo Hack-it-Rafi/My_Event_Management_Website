@@ -1,6 +1,8 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
+import 'react-toastify/dist/ReactToastify.css';
+import Swal from 'sweetalert2'
 
 const Login = () => {
     // const [registerError, setRegisterError] = useState('');
@@ -17,7 +19,14 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 console.log(result.user);
-                navigate(location?.state ? location.state:'/');
+                // alert("Login success")
+                Swal.fire({
+                    title: 'Login Successful!',
+                    text: 'Enjoy Exploring!',
+                    icon: 'success',
+                    confirmButtonText: 'Continue'
+                  })
+                navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
                 console.error(error);

@@ -1,19 +1,21 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "./AuthProvider";
+import { FcGoogle } from 'react-icons/fc';
+import Swal from 'sweetalert2'
 
 const Register = () => {
     const [registerError, setRegisterError] = useState('');
     const [success, setSuccess] = useState('');
-    const { createUser } = useContext(AuthContext);
+    const { createUser, updateUser, googleSignIn } = useContext(AuthContext);
+    const navigate = useNavigate();
     const handleRegister = (e) => {
         e.preventDefault();
-        const form = new FormData(e.currentTarget);
-        // const name = form.get('name');
-        // const photo = form.get('photo');
-        const email = form.get('email');
-        const password = form.get('password');
-
+        const name = e.target.name.value;
+        const photo = e.target.photo.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(name, photo);
         setRegisterError('');
         setSuccess('');
 
@@ -30,12 +32,41 @@ const Register = () => {
             setRegisterError('Your password should have at least one special characters.')
             return;
         }
+
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+                Swal.fire({
+                    title: 'Registration Successful!',
+                    text: 'Enjoy Exploring!',
+                    icon: 'success',
+                    confirmButtonText: 'Continue'
+                  });
                 setSuccess('User Created Successfully.');
             })
             .catch();
+        
+        updateUser(name, photo)
+        .then()
+        .catch(error=>{
+            setRegisterError(error);
+        });
+    }
+
+    const handleGoogleSignIn=()=>{
+        googleSignIn()
+        .then(()=>{
+            Swal.fire({
+                title: 'Login Successful!',
+                text: 'Enjoy Exploring!',
+                icon: 'success',
+                confirmButtonText: 'Continue'
+              })
+            navigate("/");
+        })
+        .catch(error=>{
+            setRegisterError(error);
+        });
     }
     return (
         <div className="mb-10">
@@ -80,6 +111,12 @@ const Register = () => {
                     {
                         success && <p className="text-green-600">{success}</p>
                     }
+                    
+                    <div className="mx-auto text-center">
+                        <p className="pb-2">or,</p>
+                        <button onClick={handleGoogleSignIn} className="flex gap-2 items-center py-3 px-6 bg-sky-400  rounded-lg"><FcGoogle/>
+                        <span className="text-white font-bold">Google</span></button>
+                    </div>
                     <p className="mt-4 text-center">Already have an account? <Link className="text-blue-600" to="/login">Login</Link></p>
                 </div>
             </div>
