@@ -5,6 +5,7 @@ const Service = ({ service }) => {
     const navigate = useNavigate();
     const handleClick=(e)=>{
         console.log(e);
+        navigate(`/${id}`)
     }
     return (
         <div className="flex flex-wrap">
