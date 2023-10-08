@@ -1,14 +1,21 @@
+import { useNavigate } from "react-router-dom";
+
 const Service = ({ service }) => {
-    const { id, name, image, short_description } = service;
+    const { id, name, image, short_description, price } = service;
+    const navigate = useNavigate();
+    const handleClick=(e)=>{
+        console.log(e);
+    }
     return (
         <div className="flex flex-wrap">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="h-[201px]"><img className="cover" src={image} alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">{name}</h2>
+                <div className="card-body text-center">
+                    <h2 className="card-title mx-auto">{name}</h2>
                     <p>{short_description}</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <p>Price: {price}</p>
+                    <div className="card-actions justify-center">
+                        <button onClick={handleClick} className="btn btn-primary">View Details</button>
                     </div>
                 </div>
             </div>

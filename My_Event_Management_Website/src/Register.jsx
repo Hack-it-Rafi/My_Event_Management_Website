@@ -18,7 +18,6 @@ const Register = () => {
     }
     return (
         <div className="mb-10">
-            <NavBar></NavBar>
             <div className="text-center my-6">
                 <h1 className="text-3xl font-bold">Register now!</h1>
             </div>

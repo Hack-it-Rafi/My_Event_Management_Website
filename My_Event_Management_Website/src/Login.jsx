@@ -20,11 +20,10 @@ const Login = () => {
     }
     return (
         <div>
-            <NavBar></NavBar>
             <div className="text-center">
                 <h1 className="text-3xl font-bold">Login now!</h1>
             </div>
-            <div className="card flex-shrink-0 w-full mx-auto max-w-sm shadow-2xl bg-base-100">
+            <div className="card flex-shrink-0 w-full mx-auto max-w-sm shadow-2xl bg-base-100 my-10">
                 <div className="card-body">
                 <form onSubmit={handleLogIn}>
                     <div className="form-control">
