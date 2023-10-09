@@ -1,13 +1,14 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
 
 const NavBar = () => {
+    const location = useLocation();
     const { user, loading, logOut } = useContext(AuthContext);
     if (loading) {
         return;
     }
-    console.log(user?.photoURL);
+    // console.log(user?.photoURL);
     const handleLogOut = () => {
         logOut()
             .then()
@@ -37,14 +38,13 @@ const NavBar = () => {
 
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 gap-2">
+                    <ul className="menu menu-horizontal  px-1 gap-2">
                         {navLinks}
                     </ul>
                 </div>
                 <div className="navbar-end gap-4">
-
-                    {
-                        user ?
+                    {location.pathname!="/login" ? (
+                        user ? 
                             <>
                                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                     <div className="w-10 rounded-full">
@@ -52,13 +52,18 @@ const NavBar = () => {
                                     </div>
                                 </label>
                                 <span>{user.displayName}</span>
-                                <button onClick={handleLogOut} className="btn z">Sign Out</button>
+                                <button onClick={handleLogOut} className="btn z">
+                                    Sign Out
+                                </button>
                             </>
-                            :
-                            <Link to="/login"><button className="btn z">Log In</button></Link>
-                    }
-
+                         : 
+                            <Link to="/login">
+                                <button className="btn z">Log In</button>
+                            </Link>
+                        
+                    ) : null}
                 </div>
+
             </div>
         </div>
     );

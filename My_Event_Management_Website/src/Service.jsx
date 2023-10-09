@@ -4,7 +4,7 @@ const Service = ({ service }) => {
     const { id, name, image, short_description, price } = service;
     const navigate = useNavigate();
     const handleClick=(e)=>{
-        console.log(e);
+        // console.log(e);
         navigate(`/${id}`)
     }
     return (

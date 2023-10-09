@@ -7,7 +7,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <div className="max-w-7xl mx-auto">
                 <Swiper
                     slidesPerView={1}
