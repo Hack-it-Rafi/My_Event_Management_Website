@@ -11,14 +11,15 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="max-w-7xl mx-auto mb-5">
+            <div className="max-w-7xl mx-auto text-lg text-rose-700 my-5">
                 <Marquee >
-                    I can be a React component, multiple React components, or just some text.
+                    <p>We provide the best of services. You are always welcomed.</p>
+                    
                 </Marquee>
             </div>
             <div className="text-center my-32">
                 <h2 className="font-pacifico text-5xl">Its who we are. Its in our blood.</h2>
-                <p className="mx-auto text-sm my-5 md:w-[800px]">See New Orleans through the eyes of a native New Orleanian. We are a creative team of locals offering authentic experiences revolving around what is fresh and unique in New Orleans. With decades of knowledge about New Orleans and 20+ years of experience in Destination Management, NOLA DMC prides itself on successfully creating memorable events that your attendees will treasure. We listen, and we deliver.</p>
+                <p className="mx-auto text-[#12121299]  my-5 md:w-[800px]">Educational and Training Events Management services encompass comprehensive event planning, venue selection, content development, and expert speaker coordination. These services also cover attendee registration, marketing and promotion, and the integration of technology solutions. Whether it's a corporate training seminar or an academic conference, Educational and Training Events Management professionals ensure that all logistical, content, and promotional aspects of the event are expertly handled to meet the client's objectives and deliver a successful learning experience.</p>
                 {/* <Link to="/services"><button className="hover:bg-teal-600 py-3 px-10 rounded-md text-white bg-[#005494]">Our Services</button></Link> */}
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 px-5">

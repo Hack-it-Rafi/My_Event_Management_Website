@@ -4,7 +4,7 @@ const QandA = () => {
             <div className="collapse bg-base-200">
                 <input type="checkbox" />
                 <div className="collapse-title text-xl font-medium">
-                    Click me to The FAQs
+                    Click for the FAQs
                 </div>
                 <div className="collapse-content">
                     <p className="font-semibold">1. What is the purpose of this educational and training event?</p>

@@ -8,10 +8,10 @@ const WhyChoseUs = () => {
         <div  data-aos="fade-in"
         data-aos-offset="200"
         data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
-        data-aos-once="false"
+        data-aos-once="true"
         data-aos-anchor-placement="top-center">
             <div>
             <section className="max-w-7xl mx-auto mt-20 mb-10 px-5 py-2">
