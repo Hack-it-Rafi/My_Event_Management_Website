@@ -58,7 +58,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">To keep learning is Best</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mx-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        Smooth learning environment to inhance the potential off your desired learning event.
                                     </p>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Gift Certificates</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mx-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        Authorized Certificate to boost up your confidence and help you in long run.
                                     </p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Integrated Supplier</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mr-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        Professional employees are always there help you with the best supplies of educational goods.
                                     </p>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Sustainable Practice</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mr-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        Learning and development criteria and enforced to bring out the most latent talent within you.
                                     </p>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">The Benefits Only</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mr-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        We mostly care about you, your benefits, your wellbeing, Just Like Jhankar Mahbub Vai.
                                     </p>
                                 </div>
                             </div>
