@@ -17,7 +17,7 @@ console.log(greetign);
 
 #### Answer: B: `ReferenceError: greetign is not defined`
 
-<i>Write your explanation here</i>
+
 Declared "greeting" and "greetign" don't match.
 </p>
 </details>
@@ -42,7 +42,7 @@ sum(1, "2");
 
 #### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+
 String and number summation results in concatenation not summation.
 </p>
 </details>
@@ -68,7 +68,7 @@ console.log(food);
 
 #### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+
 Here, the print command was for food. So, result was the food array.
 </p>
 </details>
@@ -93,7 +93,7 @@ console.log(sayHi());
 
 #### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+
 No parameter was passed to sayHi() function, resulten in undefined.
 </p>
 </details>
@@ -121,7 +121,7 @@ console.log(count);
 
 #### Answer: C: 3
 
-<i>Write your explanation here</i>
+
 in num array, every element except '0' is truthy. So the "if (num) count += 1;" line was executed 3 times.
 </p>
 </details>
