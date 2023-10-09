@@ -1,6 +1,18 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 const WhyChoseUs = () => {
     return (
-        <div>
+        <div  data-aos="fade-in"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
             <div>
             <section className="max-w-7xl mx-auto mt-20 mb-10 px-5 py-2">
                 <div className="text-center lg:text-center">

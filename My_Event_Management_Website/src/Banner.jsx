@@ -7,7 +7,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 const Banner = () => {
     return (
-        <div className='mt-20'>
+        <div className='z-[2]'>
             <div className="max-w-7xl mx-auto">
                 <Swiper
                     slidesPerView={1}
@@ -39,7 +39,7 @@ const Banner = () => {
 
                             </div>
                         </div>
-                    </div></SwiperSlide>                   
+                    </div></SwiperSlide>
                     <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/8477de_5814ec78df644b18925b09458540353d~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_1899,h_696,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/8477de_5814ec78df644b18925b09458540353d~mv2_d_7360_4912_s_4_2.jpg)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">

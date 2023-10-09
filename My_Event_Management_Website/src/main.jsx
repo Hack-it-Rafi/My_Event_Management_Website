@@ -15,11 +15,13 @@ import ServiceDetails from './ServiceDetails';
 import PrivateRoute from './PrivateRoute';
 import RequestForProposal from './RequestForProposal';
 import QandA from './QandA';
+import ErrorPage from './ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

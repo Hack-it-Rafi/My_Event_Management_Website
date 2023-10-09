@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Data Science Bootcamp",
+        "name": "Data Science Bootcamp Training",
         "image": "https://media.licdn.com/dms/image/D5612AQFzPdZDA8bE_A/article-cover_image-shrink_600_2000/0/1684930016865?e=2147483647&v=beta&t=3Vw9vK7_Wl0j9OkMzfvqelJYMsH00LkSAyHMbO7ph3M",
         "price": "$799",
         "short_description": "Learn data analysis, machine learning, and more!",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "Web Development Fundamentals",
+        "name": "Web Development Fundamentals Seminar",
         "image": "https://res.cloudinary.com/boardinfinity/image/upload/t_blog_img/bi-websites/blog/11/62.png",
         "price": "$499",
         "short_description": "Start your journey in web development!",

@@ -8,7 +8,7 @@ const NavBar = () => {
     if (loading) {
         return;
     }
-    // console.log(user?.photoURL);
+    console.log(user?.photoURL);
     const handleLogOut = () => {
         logOut()
             .then()
@@ -19,10 +19,10 @@ const NavBar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
         <li><NavLink to="/request"><small>Request for proposal</small></NavLink></li>
-        <li><NavLink to="/Q&A">FAQ</NavLink></li>
+        <li><NavLink to="/Q&A">Q & A</NavLink></li>
     </>
     return (
-        <div className="max-w-7xl mx-auto my-10">
+        <div className="max-w-7xl mx-auto mb-20 z-10">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
