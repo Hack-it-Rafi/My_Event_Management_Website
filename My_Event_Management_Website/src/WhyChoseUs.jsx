@@ -20,8 +20,7 @@ const WhyChoseUs = () => {
                         Why Choose Us
                     </h1>
                     <p className="text-[#12121299]">
-                        Contrary to popular belief, is not simply random text. It has roots in a piece of classNameical <br/>
-                            Latin literature from 45 BC, making it over 2000 years old.
+                    Choosing our services is a decision driven by the unique value we offer. With years of experience and a deep understanding of the industry, our expertise is unrivaled. We prioritize customization, tailoring solutions to meet your specific needs, ensuring a perfect fit. Quality is our hallmark, and we never compromise. 
                     </p>
                 </div>
             </section>
@@ -45,7 +44,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Dedicated Team</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mx-0"></div>
                                     <p>
-                                        Professional employees are there for you to pick the most amazing and fresh fruits.
+                                        Professional employees are there for you to pick the most amazing experience.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +55,7 @@ const WhyChoseUs = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 className="text-2xl font-bold">Fresh is Best</h1>
+                                    <h1 className="text-2xl font-bold">To keep learning is Best</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mx-0"></div>
                                     <p>
                                         Professional employees are there for you to pick the most amazing and fresh fruits.
