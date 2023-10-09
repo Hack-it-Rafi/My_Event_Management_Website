@@ -13,6 +13,8 @@ import AuthProvider from './AuthProvider';
 import Services from './Services';
 import ServiceDetails from './ServiceDetails';
 import PrivateRoute from './PrivateRoute';
+import RequestForProposal from './RequestForProposal';
+import QandA from './QandA';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: ()=>fetch("/services.json")
       },
       {
         path: "/login",
@@ -35,6 +38,14 @@ const router = createBrowserRouter([
         path: "/services",
         element: <Services></Services>,
         loader: ()=>fetch("/services.json")
+      },
+      {
+        path: "/request",
+        element: <PrivateRoute><RequestForProposal></RequestForProposal></PrivateRoute>
+      },
+      {
+        path: "/Q&A",
+        element: <PrivateRoute><QandA></QandA></PrivateRoute>
       },
       {
         path: "/:id",

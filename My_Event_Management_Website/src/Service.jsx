@@ -9,7 +9,7 @@ const Service = ({ service }) => {
     }
     return (
         <div className="flex flex-wrap">
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card bg-base-100 shadow-xl">
                 <figure className="h-[201px]"><img className="cover" src={image} alt="Shoes" /></figure>
                 <div className="card-body text-center">
                     <h2 className="card-title mx-auto">{name}</h2>

@@ -17,7 +17,8 @@ const NavBar = () => {
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/services">Services</NavLink></li>
-        <li><NavLink to="/career">Career</NavLink></li>
+        <li><NavLink to="/request"><small>Request for proposal</small></NavLink></li>
+        <li><NavLink to="/Q&A">FAQ</NavLink></li>
     </>
     return (
         <div className="max-w-7xl mx-auto my-10">
