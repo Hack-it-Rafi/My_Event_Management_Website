@@ -20,7 +20,7 @@ const Banner = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/8477de_ce10966ea208471ead6a95dc2f33795c~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_1899,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8477de_ce10966ea208471ead6a95dc2f33795c~mv2_d_7360_4912_s_4_2.jpg)' }}>
+                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://i.ibb.co/tLJKFQT/8477de.webp)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -30,7 +30,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div></SwiperSlide>
-                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/8477de_59ed4f25e84e43788fd7009eaf1a6eca~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_1225,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8477de_59ed4f25e84e43788fd7009eaf1a6eca~mv2_d_7360_4912_s_4_2.jpg)' }}>
+                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://i.ibb.co/SwTTfKQ/8477de-59ed4f25e84e43788fd7009eaf1a6eca-mv2-d-7360-4912-s-4-2.webp)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -40,7 +40,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div></SwiperSlide>
-                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/8477de_5814ec78df644b18925b09458540353d~mv2_d_7360_4912_s_4_2.jpg/v1/fill/w_1899,h_696,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/8477de_5814ec78df644b18925b09458540353d~mv2_d_7360_4912_s_4_2.jpg)' }}>
+                    <SwiperSlide><div className="max-w-7xl mx-auto hero min-h-screen md:min-h-[500px]" style={{ backgroundImage: 'url(https://i.ibb.co/JFgLkpH/8477de-5814ec78df644b18925b09458540353d-mv2-d-7360-4912-s-4-2.webp)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">

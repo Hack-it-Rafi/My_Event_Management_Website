@@ -1,4 +1,4 @@
-import logo from "../public/Heading.png"
+import logo from "/Heading.png"
 const Header = () => {
     return (
         <div className="text-center max-w-7xl mx-auto">

@@ -47,9 +47,9 @@ const Register = () => {
             .catch();
         
         updateUser(name, photo)
-        .then()
+        .then(()=>console.log("hello"))
         .catch(error=>{
-            setRegisterError(error);
+            setRegisterError(error.code);
         });
     }
 

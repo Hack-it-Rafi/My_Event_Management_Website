@@ -29,7 +29,7 @@ const WhyChoseUs = () => {
                 <div className="flex flex-col lg:flex-row gap-8">
                     <div className="flex-1 order-1 lg:order-2">
                         <div className="flex justify-center">
-                            <img src="https://learn.g2.com/hubfs/iStock-927805948.jpg" alt="" />
+                            <img src="https://i.ibb.co/WWYcGdJ/i-Stock-927805948.webp" alt="" />
                         </div>
                     </div>
                     <div className=" flex-1 order-2 lg:order-1">
@@ -90,7 +90,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Integrated Supplier</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mr-0"></div>
                                     <p>
-                                        Professional employees are always there help you with the best supplies of educational goods.
+                                        We are always there help you with the best supplies of educational goods.
                                     </p>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ const WhyChoseUs = () => {
                                     <h1 className="text-2xl font-bold">Sustainable Practice</h1>
                                     <div className="w-[70px] h-[2px] bg-slate-400 my-2 mx-auto lg:mr-0"></div>
                                     <p>
-                                        Learning and development criteria and enforced to bring out the most latent talent within you.
+                                        Learning and development criteria are enforced to bring out the  talent within you.
                                     </p>
                                 </div>
                             </div>

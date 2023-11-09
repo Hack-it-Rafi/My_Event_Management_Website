@@ -48,10 +48,10 @@ const NavBar = () => {
                             <>
                                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                     <div className="w-10 rounded-full">
-                                        <img src={user?.photoURL} alt="" />
+                                        {/* <img src={user?.photoURL} alt="" /> */}
                                     </div>
                                 </label>
-                                <span>{user.displayName}</span>
+                                {/* <span>{user.displayName}</span> */}
                                 <button onClick={handleLogOut} className="btn z">
                                     Sign Out
                                 </button>
